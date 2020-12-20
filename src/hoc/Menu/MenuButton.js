@@ -25,7 +25,7 @@ span {
 class MenuButton extends React.Component {
     render() {
         return (
-            <ButtonStyle onMouseOver={()=>this.props.showPage(this.props.index)}
+            <ButtonStyle onClick={()=>this.props.showPage(this.props.index)}
             color={this.props.color}>
                 <Icon name={this.props.icon}
                     style={{ fontSize: "50px", transform: "translateY(30%)" }} />

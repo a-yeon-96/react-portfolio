@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import { FlexBox } from '../reusuable/styles';
-import react1 from '../../img/react 1.PNG';
-import react2 from '../../img/react 2.PNG';
+import Java1 from '../../img/세미프로젝트 (홈페이지).PNG';
+import Java2 from '../../img/티몬 프론트.PNG';
 
 const ReactContainer = styled.div`
 position: relative;
@@ -22,17 +22,17 @@ box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
     padding: 0 20px;
 }
 .list1 {
-    width: 35%;
+    width: 60%;
     height: 180px;
     margin-right: 30px;
-    padding: 0 10px 0 30px;
+    padding: 0 10px;
     background-color: #fff;
     border-radius: 10px;
     position: relative;
     border: 2px solid black;
 }
 .list2 {
-    width: 60%;
+    width: 30%;
     height: 180px;
     margin-right: 30px;
     padding: 0 10px;
@@ -43,29 +43,21 @@ box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
 `;
 
-
-
-class Reactjs extends Component {
+class Java extends Component {
     render() {
         return (
             <ReactContainer>
                 <FlexBox>
                     <div className="flex-1" style={{ padding: "25px", backgroundColor: "#ffffff" }}>
-                        <div className="Project">React Project list</div>
+                        <div className="Project">Java Project list</div>
                         <br />
                         <FlexBox>
-                            <div className="flex-1">
-                                <a style={{ color: "black" }} href="https://github.com/a-yeon-96/react-app.git">
-                                    1. React 입문 (Github)</a>
-                            </div>
-                            <div className="flex-1">
-                                <a style={{ color: "black" }} href="https://github.com/a-yeon-96/react-portfolio.git">
-                                    2. React 포트폴리오 (Github)</a>
-                            </div>
+                            <div className="flex-2">1. 소개팅사이트</div>
+                            <div className="flex-1">2. 티몬 프론트(벤치마킹)</div>
                         </FlexBox>
                         <FlexBox>
-                            <img className="list1" src={react1} alt='react1' />
-                            <img className="list2" src={react2} alt='react2' />
+                            <img className="list1" src={Java1} alt='Java1' />
+                            <img className="list2" src={Java2} alt='Java2' />
                         </FlexBox>
                     </div>
 
@@ -76,4 +68,4 @@ class Reactjs extends Component {
     }
 }
 
-export default Reactjs;
+export default Java;

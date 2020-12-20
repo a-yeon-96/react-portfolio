@@ -29,9 +29,9 @@ class Menubar extends React.Component {
             color: '#5CD3F3',
             text: 'ReactJS'
         }, {
-            icon: 'node',
+            icon: 'leaf',
             color: '#87BF00',
-            text: 'NodeJS'
+            text: 'Spring'
         }, {
             icon: 'coffee',
             color: '#DE6800',
