@@ -68,8 +68,6 @@ class Reactjs extends Component {
                             <img className="list2" src={react2} alt='react2' />
                         </FlexBox>
                     </div>
-
-
                 </FlexBox>
             </ReactContainer>
         )
