@@ -26,6 +26,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://reate-portfolio-ayeon.netlify.app/",
   "browserslist": {
     "production": [
       ">0.2%",
